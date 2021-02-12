@@ -32,9 +32,9 @@ import math
 a = float(input("Please enter number "))
 
 if (math.sqrt(a)) == (round(math.sqrt(a))) and (round((a**(1/3)),4)) == round(a**(1/3)):
-    print int(str(a) +"is both a perfect square and a perfect cube.")
+    print (str(a) +" is both a perfect square and a perfect cube.")
 elif round((a**(1/3)),4) == round(a**(1/3)):
-    print int(str(a) +" is only a perfect square.")
+    print (str(a) +" is only a perfect square.")
 elif (math.sqrt(a)) == round(math.sqrt(a)):
-    print int(str(a) +" is only a perfect cube.")
+    print (str(a) +" is only a perfect cube.")
 
