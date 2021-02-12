@@ -19,6 +19,6 @@ import math
 
 a = float(input("Please enter number "))
 if a > 0:
-    print (str(a) +"is a positive integer.")
+    print (str(a) +" is a positive integer.")
 elif a < 0:
-    print(str(a) + "is not a positive integer.")
+    print(str(a) + " is not a positive integer.")
