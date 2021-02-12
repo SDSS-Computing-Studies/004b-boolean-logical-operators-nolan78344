@@ -34,10 +34,11 @@ Enter a number: 8
 
 import math
 a = float(input("Please enter number "))
-if (round(a ** (1 / 3)) ** 3 == a) and (math.sqrt(a)**2 == a):
-    print (str(a) +"is both a perfect square and a perfect cube")
-elif (round(a ** (1 / 3)) ** 3 == a):
-    print(str(a) +"is only a perfect square.")
-elif (math.sqrt(a)**2 == a):
-    print(str(a) +"is only a perfect cube.")
+
+if (math.sqrt(a)) == round(math.sqrt(a)) and (round((a**(1/3)),4)) == round(a**(1/3)):
+    print (str(a) +" is both a perfect square and a perfect cube")
+elif round((a**(1/3)),4) == round(a**(1/3)):
+    print(str(a) +" is only a perfect square.")
+elif (math.sqrt(a)) == round(math.sqrt(a)):
+    print(str(a) +" is only a perfect cube.")
 

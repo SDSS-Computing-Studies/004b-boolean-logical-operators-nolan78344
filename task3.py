@@ -19,7 +19,7 @@ import math
 
 a = float(input("Please enter number "))
 
-if (a > 0):
+if a > 0:
     print (str(a) +"is a positive integer")
-else: (a < 0)
+elif a < 0:
     print(str(a) + "is not a positive integer")
