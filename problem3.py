@@ -31,21 +31,36 @@ import math
 a = float(input("Please enter integer "))
 b = float(input("Please enter integer "))
 c = float(input("Please enter integer "))
+formed = False
+if a**2 + b**2 == c**2:
+    formed = True
+elif b**2 + c**2 == a**2:
+    formed = True
+elif a**2 + c**2 == b**2:
+    formed = True
 
-if b > c:
-    x = c
-    y = b
-else:
+if a > b and b > c:
+    y = a
     x = b
+    z = c
+elif c > b and b > a:
     y = c
-if a > c:
-    z = 
+    x = b
+    z = a
+elif b > c and c > a:
+    y = b
+    x = c
+    z = a
+elif a > c and c > b:
+    y = a
+    x = c
+    z = b
 
 
-if a**2 + x**2 == y**2:
-    print(str(a)"," + str(x)"," + str(y)"," +" form a Pythagorean triple")
-elif a**2 + x**2 != y**2:
-    print(str(a)"," + str(x)"," + str(y)"," +" do not form a Pythagorean triple")
+if formed == True:
+    print(str(int(z)) + "," + str(int(x)) + "," + str(int(y)) + " form a Pythagorean triple")
+else:
+    print(str(int(z)) + "," + str(int(x)) + "," + str(int(y)) + " do not form a Pythagorean triple")
 
 #test1 6,10,8 form a triple
 #test2 3,4,5 form a triple
