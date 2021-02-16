@@ -28,7 +28,11 @@ Enter an integer=>2
 """
 
 import math
-a = float(input("Please enter number "))
+a = float(input("Please enter integer "))
+b = float(input("Please enter integer "))
+c = float(input("Please enter integer "))
 
-if (a % b) == 0:
-    print(str(a) + str(b) + str(c)" do not form a Pythagorean triple")
+if a**2 + b**2 == c**2:
+    print(str(a) + str(b) + str(c) +" form a Pythagorean Triple")
+elif a**2 + b**2 != c**2:
+    print(str(a) + str(b) + str(c) +" do not form a Pythagorean Triple")
