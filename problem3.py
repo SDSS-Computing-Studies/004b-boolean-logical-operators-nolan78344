@@ -40,9 +40,9 @@ else:
     y = c
 
 if a**2 + x**2 == y**2:
-    print(str(a) + str(x) + str(y) +" form a Pythagorean triple")
+    print(str(a)"," + str(x)"," + str(y)"," +" form a Pythagorean triple")
 elif a**2 + x**2 != y**2:
-    print(str(a) + str(x) + str(y) +" do not form a Pythagorean triple")
+    print(str(a)"," + str(x)"," + str(y)"," +" do not form a Pythagorean triple")
 
 #test1 6,10,8 form a triple
 #test2 3,4,5 form a triple
