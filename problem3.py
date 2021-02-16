@@ -36,3 +36,6 @@ if a**2 + b**2 == c**2:
     print(str(a) + str(b) + str(c) +" form a Pythagorean Triple")
 elif a**2 + b**2 != c**2:
     print(str(a) + str(b) + str(c) +" do not form a Pythagorean Triple")
+
+#test1 6,10,8 form a triple
+#test2 3,4,5 form a triple
