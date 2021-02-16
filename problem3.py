@@ -26,3 +26,9 @@ Enter an integer=>4
 Enter an integer=>2
 2,4,5 do not form a Pythagorean triple
 """
+
+import math
+a = float(input("Please enter number "))
+
+if (a % b) == 0:
+    print(str(a) + " is a factor of " + str(b))
