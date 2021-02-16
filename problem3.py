@@ -38,6 +38,9 @@ if b > c:
 else:
     x = b
     y = c
+if a > c:
+    z = 
+
 
 if a**2 + x**2 == y**2:
     print(str(a)"," + str(x)"," + str(y)"," +" form a Pythagorean triple")
