@@ -31,4 +31,4 @@ import math
 a = float(input("Please enter number "))
 
 if (a % b) == 0:
-    print(str(a) + " is a factor of " + str(b))
+    print(str(a) + str(b) + str(c)" do not form a Pythagorean triple")

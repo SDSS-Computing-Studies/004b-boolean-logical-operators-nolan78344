@@ -28,7 +28,8 @@ a = float(input("Please enter number "))
 b = float(input("Please enter number "))
 
 if (a % b) == 0:
-    print(str(a) + " is a factor of " + str(b))
+    print(str(b) + " is a factor of " + str(a))
 elif (a % b) != 0:
     print(str(a) + " is not a factor of " + str(b))
+
 
